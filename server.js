@@ -45,6 +45,11 @@ fs.unlink("file.txt",(err)=>{
 if(fs.existsSync("file.txt")){
     console.log("file exists");
     fs.appendFileSync("file.txt",'added content',(err)=>{});
+
+
+
+
+    
 }else {
     console.log("file does not exists");
     fs.writeFileSync("file.txt","added more data",(err)=>{});
